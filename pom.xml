@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dasanjos.example</groupId>
+  <artifactId>future-api</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.0</version>
+  <name>Future of APIs</name>
+  <url>https://dasanjos.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
+  	<junit.version>4.12</junit.version>
+  </properties>
+
+  <modules>
+    <module>rest</module>
+    <module>soap</module>
+    <module>graphql</module>
+    <module>grpc</module>
+  </modules>
+</project>
